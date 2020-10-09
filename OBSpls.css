@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "a b c"
+        "d e f"
+        "g h i";
+}
+
+.pls-gif{
+    justify-self: center;
+    align-self: center;
+}
